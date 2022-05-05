@@ -1,0 +1,120 @@
+/* 練習： 卡片製作 */
+body {
+    /* flatuiicolors.com 找色卡並拷貝 */
+    background-color: #eeeeee;
+    /* google 搜尋微軟雅黑字體英文名稱並拷貝  */
+    font-family: Microdoft-JhengHei
+}
+
+.card {
+    background-color: #fff;
+    width: 450px;
+    height: 270px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px black;
+    /* 水平置中*/
+    /* margin: 0 auto ;  */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ------------------------------------- */
+.top {
+    /* background-color: pink; */
+    width: 410;
+    /* height: 200px; */
+    /* border:2px solid #2EA9DF;  */
+    /* border-bottom:2px solid blue  */
+
+
+}
+
+.top p {
+
+    /* height: 200px; */
+    /* background-color: pink; */
+    font-size: 20px;
+    color: #2EA9DF;
+    margin-left: 20px;
+    border-bottom: 2px solid #2EA9DF;
+    /* border:2px solid #2EA9DF; */
+}
+/* ---------------------- */
+.mid {
+    /* background: pink; */
+    width: 410px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.name,.contact {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+
+}
+
+.name {
+    margin-top: 35px;
+    background-color: #fff;
+}
+
+.mame p {
+
+    background-color: yellow;
+    margin:0;
+    font-weight: bold;
+}
+
+.chinese {
+    /* border: 1px dashed black; */
+    font-size: 18px;
+}
+
+.chinese span{
+    font-size: 12px;
+}
+
+.eng {
+    /* border: 1px dashed black; */
+    font-size: 10px;
+    }
+/* /* ----------------------------------------- * */
+.contact{
+/* border:1px dashed black; */
+margin-top: 5px;
+margin-left: 50px;
+font-size: 15px;
+line-height: 19px;
+
+}
+.contack p{
+    
+    /* border:1px dashed black; */
+    margin-bottom: 0;
+
+}
+.bot{
+    background-color: #1d7faa;
+    width: 100%;
+    height: 70px;
+    /* 置底 */
+    position:absolute;
+    bottom:0px;
+    /* 只要設左下,右下為圓角 */
+    border-radius:0 0 10px 10px;
+    color:white;
+    box-sizing:border-box;
+    padding:10px;
+    }
+.bot p{
+    /* border:1px dashed black; */
+    font-size: :14px;
+    margin:0 0 0 20px;
+    padding-top:5px;
+
+} 
+
+
